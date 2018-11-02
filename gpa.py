@@ -1,0 +1,10 @@
+print('first enter all four of your names the your respective gpas')
+student1 = int(input()) # Average GPA
+student2 = int(input())
+student3 = int(input())
+student4 = int(input())
+gpa1 = int(input())
+gpa2 = int(input())
+gpa3 = int(input())
+gpa4 = int(input())
+print(student1,student2,student3,student4,(gpa1 + gpa2 + gpa3 + gpa4)/4)
